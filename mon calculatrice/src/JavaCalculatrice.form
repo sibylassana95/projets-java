@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="JavaCalculatrice">
+  <grid id="27dc6" binding="JavaCalculatrice" layout-manager="GridLayoutManager" row-count="8" column-count="18" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="15" bottom="0" right="15"/>
+    <constraints>
+      <xy x="53" y="-11" width="794" height="431"/>
+    </constraints>
+    <properties>
+      <background color="-67184"/>
+      <font name="Loma" size="11" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="ce0cc">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b6599" class="javax.swing.JButton" binding="btnQuatre">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13934661"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="ca472" class="javax.swing.JButton" binding="btnSept">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13934661"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="854d4" class="javax.swing.JButton" binding="btnDeux">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6214469"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="4e37b" class="javax.swing.JButton" binding="btnCinq">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6214469"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="c4755" class="javax.swing.JButton" binding="btnHuite">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6214469"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="a7e70" class="javax.swing.JButton" binding="btnTrois">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-41972"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="9c6e4" class="javax.swing.JButton" binding="btnSix">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-41972"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="7c083" class="javax.swing.JButton" binding="btnNeuf">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-41972"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="fcb98" class="javax.swing.JButton" binding="btnPlus">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-33454"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="c8e85" class="javax.swing.JButton" binding="btnDivision">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-33454"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="d2303" class="javax.swing.JButton" binding="btnUn">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13934661"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="3bde4" class="javax.swing.JButton" binding="btnZero">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6214469"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="46c6f" class="javax.swing.JButton" binding="btnPoint">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13934661"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="69951" class="javax.swing.JButton" binding="btnMoin">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-33454"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="5bb1" class="javax.swing.JButton" binding="btnMultiply">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-33454"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="92cbb" class="javax.swing.JTextField" binding="textDisplay">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5655112"/>
+          <font name="Chandas" size="12" style="1"/>
+        </properties>
+      </component>
+      <component id="c8b56" class="javax.swing.JButton" binding="btnEguals">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-41972"/>
+          <font name="Chandas" size="12" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="a2bfc" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="4" column="10" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-62665"/>
+          <font name="Chandas" size="12" style="1"/>
+          <foreground color="-4473925"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="C"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
