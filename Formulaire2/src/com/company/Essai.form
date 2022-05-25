@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Essai">
+  <grid id="27dc6" binding="pan" layout-manager="GridLayoutManager" row-count="14" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="10" y="7" width="1020" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-921103"/>
+      <foreground color="-9075272"/>
+      <maximumSize width="600" height="600"/>
+      <minimumSize width="600" height="600"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d8c21" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono Medium" style="1"/>
+          <foreground color="-16514814"/>
+          <text value="FICHE LIVRE N°"/>
+        </properties>
+      </component>
+      <component id="50383" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15594994"/>
+          <text value="Titre"/>
+        </properties>
+      </component>
+      <component id="e7b06" class="javax.swing.JTextField" binding="titre">
+        <constraints>
+          <grid row="1" column="1" row-span="3" col-span="13" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+          <foreground color="-11447194"/>
+        </properties>
+      </component>
+      <component id="20f37" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Ville librairie"/>
+        </properties>
+      </component>
+      <component id="c242" class="javax.swing.JComboBox" binding="ville">
+        <constraints>
+          <grid row="2" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+          <model>
+            <item value="paris"/>
+            <item value="dakar"/>
+            <item value="bamako"/>
+          </model>
+        </properties>
+      </component>
+      <component id="514fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Prix Vente"/>
+        </properties>
+      </component>
+      <component id="86202" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Prix Achat"/>
+        </properties>
+      </component>
+      <component id="56167" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="categorie"/>
+        </properties>
+      </component>
+      <component id="a1d5d" class="javax.swing.JComboBox" binding="categorie">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+          <model>
+            <item value="categorie1"/>
+            <item value="categorie2"/>
+            <item value="categorie3"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1e8aa" class="javax.swing.JTextField" binding="prixdevente">
+        <constraints>
+          <grid row="4" column="14" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="3b9b9" class="javax.swing.JTextField" binding="prixdachat">
+        <constraints>
+          <grid row="4" column="16" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="9459f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Auteur"/>
+        </properties>
+      </component>
+      <component id="fb842" class="javax.swing.JTextField" binding="auteur">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="e37c3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Destiné aux"/>
+        </properties>
+      </component>
+      <component id="e74e" class="javax.swing.JRadioButton" binding="enfantsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1442588"/>
+          <foreground color="-16514814"/>
+          <text value="Enfants"/>
+        </properties>
+      </component>
+      <component id="bce53" class="javax.swing.JRadioButton" binding="adolescentsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1442588"/>
+          <foreground color="-16514814"/>
+          <text value="Adolescents"/>
+        </properties>
+      </component>
+      <component id="a72af" class="javax.swing.JRadioButton" binding="adultesRadioButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1442588"/>
+          <foreground color="-16514814"/>
+          <text value="Adultes"/>
+        </properties>
+      </component>
+      <component id="87111" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="4è de couverture"/>
+        </properties>
+      </component>
+      <component id="7eaca" class="javax.swing.JButton" binding="ENREGISTRERButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1895901"/>
+          <font name="JetBrains Mono ExtraBold" size="16" style="1"/>
+          <foreground color="-921103"/>
+          <text value="ENREGISTRER"/>
+        </properties>
+      </component>
+      <component id="a06f2" class="javax.swing.JTextField" binding="fiche">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="bec4e" class="javax.swing.JTextArea" binding="couverture">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="6" vsize-policy="6" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="b349a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Nbre pages"/>
+        </properties>
+      </component>
+      <component id="8f6e0" class="javax.swing.JTextField" binding="nbrepage">
+        <constraints>
+          <grid row="12" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="2" indent="1" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="96c88" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16514814"/>
+          <text value="Code categorie"/>
+        </properties>
+      </component>
+      <component id="94327" class="javax.swing.JTextField" binding="codecategorie">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9075272"/>
+        </properties>
+      </component>
+      <component id="9ed10" class="javax.swing.JCheckBox" binding="checkBoxDisponible">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1442588"/>
+          <foreground color="-16514814"/>
+          <text value="Disponible"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
