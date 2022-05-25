@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Form">
+  <grid id="27dc6" binding="pan" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="689" height="372"/>
+    </constraints>
+    <properties>
+      <background color="-12076122"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b24e6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cantarell Extra Bold" size="20" style="3"/>
+          <foreground color="-16250872"/>
+          <text value="CALCLUL CHOIX DE L'OPERATEUR"/>
+        </properties>
+      </component>
+      <component id="4fc34" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16250872"/>
+          <text value="Nombre 1"/>
+        </properties>
+      </component>
+      <component id="f3ef3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16250872"/>
+          <text value="Nombre 2"/>
+        </properties>
+      </component>
+      <component id="538f5" class="javax.swing.JTextField" binding="nombre1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6bda3" class="javax.swing.JTextField" binding="nombre2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6b939" class="javax.swing.JToggleButton" binding="additionButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Additton"/>
+        </properties>
+      </component>
+      <component id="c7c21" class="javax.swing.JToggleButton" binding="soustrationButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Soustration"/>
+        </properties>
+      </component>
+      <component id="1baad" class="javax.swing.JToggleButton" binding="divisionButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Division"/>
+        </properties>
+      </component>
+      <component id="a9ea9" class="javax.swing.JToggleButton" binding="multiplicationButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Multiplication"/>
+        </properties>
+      </component>
+      <component id="c6dc3" class="javax.swing.JButton" binding="CALCULButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14550764"/>
+          <text value="CALCUL"/>
+        </properties>
+      </component>
+      <grid id="779a0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched" title="Resultat"/>
+        <children>
+          <component id="c5241" class="javax.swing.JLabel" binding="recup">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="cf9ff" class="javax.swing.JToggleButton" binding="racinecarreButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Racine carre"/>
+        </properties>
+      </component>
+      <component id="abb3" class="javax.swing.JToggleButton" binding="surfaceButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="Surface"/>
+        </properties>
+      </component>
+      <component id="59d9a" class="javax.swing.JToggleButton" binding="perimettreButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15845895"/>
+          <text value="perimettre"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

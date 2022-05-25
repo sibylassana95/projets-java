@@ -1,0 +1,222 @@
+usb-creator 2021-06-25 15:08:35,686 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2021-06-25 15:08:36,050 (DEBUG) backend.py:66: detect_devices
+usb-creator 2021-06-25 15:08:36,052 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2021-06-25 15:08:36,053 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdc
+usb-creator 2021-06-25 15:08:36,072 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 15:08:36,072 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 15:09:11,935 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/2
+usb-creator 2021-06-25 15:09:12,078 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sda2
+usb-creator 2021-06-25 15:09:12,078 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sda2
+usb-creator 2021-06-25 15:09:12,078 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sda2
+usb-creator 2021-06-25 15:09:12,078 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sda2
+usb-creator 2021-06-25 15:09:24,934 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso
+usb-creator 2021-06-25 15:09:24,935 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 15:09:25,011 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso", '-x', '/.disk/mini-info']
+usb-creator 2021-06-25 15:09:59,211 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 15:09:59,211 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 15:09:59,254 (DEBUG) frontend.py:185: add_source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 15:10:24,225 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso
+usb-creator 2021-06-25 15:10:24,226 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 15:10:24,230 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/win10 64bit.iso", '-x', '/.disk/mini-info']
+usb-creator 2021-06-25 15:10:32,700 (DEBUG) backend.py:181: cancel_install
+usb-creator 2021-06-25 19:56:48,647 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2021-06-25 19:56:49,060 (DEBUG) backend.py:66: detect_devices
+usb-creator 2021-06-25 19:56:49,063 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:56:49,063 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:56:59,108 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:56:59,114 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:56:59,119 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:56:59,120 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:56:59,182 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/13
+usb-creator 2021-06-25 19:57:02,929 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:02,929 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,077 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,077 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,078 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,078 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,122 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,122 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,122 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,123 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,250 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/14
+usb-creator 2021-06-25 19:57:03,493 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:03,493 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:03,493 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:03,493 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:03,626 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:57:03,632 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:03,637 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:03,640 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:57:03,662 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/15
+usb-creator 2021-06-25 19:57:13,084 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,084 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,224 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,224 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,225 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,225 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,284 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,284 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,285 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,285 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:13,397 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/16
+usb-creator 2021-06-25 19:57:13,575 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:13,576 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:13,576 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:13,576 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:38,157 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:57:38,162 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:38,164 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:38,166 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:57:38,210 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/17
+usb-creator 2021-06-25 19:57:41,947 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:41,947 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,053 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,053 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,054 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,054 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,135 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,135 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,135 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,136 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:42,243 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/18
+usb-creator 2021-06-25 19:57:42,476 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:42,476 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:42,476 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:42,476 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:44,563 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:57:44,564 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:44,569 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:44,569 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:57:44,628 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/19
+usb-creator 2021-06-25 19:57:48,339 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,339 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,463 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,463 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,463 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,463 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,541 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,541 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,541 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,541 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:48,639 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/20
+usb-creator 2021-06-25 19:57:48,730 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:48,731 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:48,731 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:48,731 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:49,403 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:57:49,404 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:49,406 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:49,407 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:57:49,459 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/21
+usb-creator 2021-06-25 19:57:53,177 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,177 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,306 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,306 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,307 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,307 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,372 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,372 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,372 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,373 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:57:53,482 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/22
+usb-creator 2021-06-25 19:57:53,572 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:53,572 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:53,572 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:57:53,573 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:03,498 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb2
+usb-creator 2021-06-25 19:58:03,505 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:03,522 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:03,523 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/drives/Imation_Ridge_0703526C2FEC8E49
+usb-creator 2021-06-25 19:58:03,564 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/23
+usb-creator 2021-06-25 19:58:07,299 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,299 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,411 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,411 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,411 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,412 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,488 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,488 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,488 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,488 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:07,595 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/jobs/24
+usb-creator 2021-06-25 19:58:07,618 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:07,619 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:07,619 (DEBUG) backend.py:140: device change /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:07,619 (DEBUG) backend.py:81: Device has been removed from the system: /org/freedesktop/UDisks2/block_devices/sdb1
+usb-creator 2021-06-25 19:58:47,477 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 19:58:47,477 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 19:58:47,558 (DEBUG) frontend.py:185: add_source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 19:58:54,794 (DEBUG) backend.py:161: install source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 19:58:54,795 (DEBUG) backend.py:162: install target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:58:54,795 (DEBUG) backend.py:166: Starting install thread.
+usb-creator 2021-06-25 19:58:54,795 (DEBUG) install.py:39: install thread source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 19:58:54,795 (DEBUG) install.py:40: install thread target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 19:59:31,214 (CRITICAL) install.py:55: Impossible d'écrire l'image du disque (/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso) sur le périphérique (/dev/sdb).
+usb-creator 2021-06-25 19:59:31,215 (ERROR) frontend.py:645: Installation failed.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/usbcreator/install.py", line 115, in diskimage_install
+    obj.Image(self.source, self.device, self.allow_system_internal,
+  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 72, in __call__
+    return self._proxy_method(*args, **keywords)
+  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 141, in __call__
+    return self._connection.call_blocking(self._named_service,
+  File "/usr/lib/python3/dist-packages/dbus/connection.py", line 652, in call_blocking
+    reply_message = self.send_message_with_reply_and_block(
+dbus.exceptions.DBusException: org.freedesktop.DBus.Python.OSError: Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/dbus/service.py", line 711, in _message_cb
+    retval = candidate_method(self, *args, **keywords)
+  File "/usr/share/usb-creator/usb-creator-helper", line 182, in Image
+    self._builtin_dd(source.encode(), target.encode())
+  File "/usr/share/usb-creator/usb-creator-helper", line 127, in _builtin_dd
+    os.fsync(dst.fileno())
+OSError: [Errno 5] Input/output error
+
+usb-creator 2021-06-25 20:02:43,809 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2021-06-25 20:02:44,025 (DEBUG) backend.py:66: detect_devices
+usb-creator 2021-06-25 20:02:44,027 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:02:44,028 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:03:01,359 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:03:01,360 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 20:03:01,366 (DEBUG) frontend.py:185: add_source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:03:03,992 (DEBUG) backend.py:161: install source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:03:03,993 (DEBUG) backend.py:162: install target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:03:03,993 (DEBUG) backend.py:166: Starting install thread.
+usb-creator 2021-06-25 20:03:03,993 (DEBUG) install.py:39: install thread source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:03:03,993 (DEBUG) install.py:40: install thread target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:03:49,188 (CRITICAL) install.py:55: Impossible d'écrire l'image du disque (/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso) sur le périphérique (/dev/sdb).
+usb-creator 2021-06-25 20:03:49,188 (ERROR) frontend.py:645: Installation failed.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/usbcreator/install.py", line 115, in diskimage_install
+    obj.Image(self.source, self.device, self.allow_system_internal,
+  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 72, in __call__
+    return self._proxy_method(*args, **keywords)
+  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 141, in __call__
+    return self._connection.call_blocking(self._named_service,
+  File "/usr/lib/python3/dist-packages/dbus/connection.py", line 652, in call_blocking
+    reply_message = self.send_message_with_reply_and_block(
+dbus.exceptions.DBusException: org.freedesktop.DBus.Python.OSError: Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/dbus/service.py", line 711, in _message_cb
+    retval = candidate_method(self, *args, **keywords)
+  File "/usr/share/usb-creator/usb-creator-helper", line 182, in Image
+    self._builtin_dd(source.encode(), target.encode())
+  File "/usr/share/usb-creator/usb-creator-helper", line 121, in _builtin_dd
+    dst.write(data)
+OSError: [Errno 5] Input/output error
+
+usb-creator 2021-06-25 20:04:34,995 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2021-06-25 20:04:35,240 (DEBUG) backend.py:66: detect_devices
+usb-creator 2021-06-25 20:04:35,242 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:04:35,242 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:04:52,852 (DEBUG) backend.py:22: Backend told to add: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:04:52,852 (DEBUG) misc.py:115: ['isoinfo', '-J', '-i', "/media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso", '-x', '/.disk/info']
+usb-creator 2021-06-25 20:04:52,857 (DEBUG) frontend.py:185: add_source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:04:54,980 (DEBUG) backend.py:161: install source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:04:54,980 (DEBUG) backend.py:162: install target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-06-25 20:04:54,980 (DEBUG) backend.py:166: Starting install thread.
+usb-creator 2021-06-25 20:04:54,981 (DEBUG) install.py:39: install thread source: /media/siby/MES FICHIERS/mes fichiers/logiciels/SYSTEMES D'EXPMOTATION/ubuntu-20.04.1-desktop-amd64.iso
+usb-creator 2021-06-25 20:04:54,981 (DEBUG) install.py:40: install thread target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-07-04 20:37:11,997 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2021-07-04 20:37:12,430 (DEBUG) backend.py:66: detect_devices
+usb-creator 2021-07-04 20:37:12,433 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-07-04 20:37:12,433 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sdb
+usb-creator 2021-07-04 20:37:15,280 (DEBUG) backend.py:181: cancel_install
