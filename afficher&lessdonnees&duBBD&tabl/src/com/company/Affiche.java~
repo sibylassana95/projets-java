@@ -1,0 +1,68 @@
+package com.company;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.sql.*;
+
+public class AfficheTache extends Acceuil{
+
+    public AfficheTache() {
+
+        try
+        {
+            //url pour charger le driver de mysql
+            String url = "jdbc:mysql://localhost:3306/gestiondesetudiant?autoReconnect=true&useSSL=false";
+            //nom de l'utulisateur du base de donnees
+            String user = "root";
+            //Mot de pass du base de donnnes
+            String password = "siby";
+            //connection au base de donnée
+            Connection con = DriverManager.getConnection(url, user, password);
+            //requette
+            String query = "SELECT * FROM AfficheTache";
+            //creation de la requette (Statement)
+            Statement stm = con.createStatement();
+            //execution de la requete
+            ResultSet res = stm.executeQuery(query);
+            //cration du table pour afficher les donnes
+            String columns[] = { "ID", "Nom Matiere", "Type de tache", "Date", "Heure" };
+            String data[][] = new String[8][5];
+            //insertion des donnes dans la table
+            int i = 0;
+            while (res.next()) {
+                int id = res.getInt("ID");
+                String nomMatiere = res.getString("Nom_Matiere");
+                String typeTache = res.getString("Type_de_tache");
+                String date = res.getString("Date");
+                String heure = res.getString("Heure");
+                data[i][0] = id + "";
+                data[i][1] = nomMatiere;
+                data[i][2] = typeTache;
+                data[i][3] = date;
+                data[i][4] = heure;
+                i++;
+            }
+            //model de table
+            DefaultTableModel model = new DefaultTableModel(data, columns);
+            JTable table = new JTable(model);
+            table.setShowGrid(true);
+            table.setShowVerticalLines(true);
+            JScrollPane pane = new JScrollPane(table);
+            JFrame f = new JFrame("Tache a faire");
+            JPanel panel = new JPanel();
+            panel.setBackground(new Color(105,163,187));
+            panel.add(pane);
+            f.add(panel);
+            f.setSize(500, 250);
+            f.setVisible(true);
+            f.setResizable(false);
+            //message d'eurreur
+        } catch(SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    }
+
